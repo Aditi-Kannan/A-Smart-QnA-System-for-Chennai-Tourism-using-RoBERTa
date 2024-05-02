@@ -4,7 +4,11 @@ To effectively answer Chennai tourism-related questions, we fine-tuned RoBERTa o
 This dataset comprised 320 question-answer (Q&A) pairs meticulously divided into a training set of 270 examples and a testing set of 50 examples.
 Data scraped is available in the data folder.
 Then RoBERTa model was fine-tuned for 20 epochs using the datasets. 
-The fine-tuned version is available at https://huggingface.co/aditi2212/roberta-finetuned-ChennaiQA-final
+The fine-tuned version is available at 
+
+https://huggingface.co/aditi2212/roberta-finetuned-ChennaiQA-final
+
+
 Fine-tuning code is available in the fine-tuning folder
 The model's performance was measured on both the training set (270 Q&A pairs) and the testing set (50 Q&A pairs) not seen during training
 We employed two key metrics to evaluate answer accuracy: Jaccard similarity and Levenshtein distance. 
